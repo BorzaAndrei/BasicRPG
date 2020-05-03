@@ -13,6 +13,9 @@ public class PlayerController : MonoBehaviour
 
     public string areaTransitionName;
 
+    private Vector3 bottomLeft;
+    private Vector3 topRight;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +25,11 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-            Destroy(gameObject);
+            if (instance != this)
+            {
+                Destroy(gameObject);
+            }
+            
         }
         DontDestroyOnLoad(gameObject);
     }
@@ -40,5 +47,14 @@ public class PlayerController : MonoBehaviour
             animator.SetFloat("lastMoveX", Input.GetAxisRaw("Horizontal"));
             animator.SetFloat("lastMoveY", Input.GetAxisRaw("Vertical"));
         }
+
+        transform.position = new Vector3(Mathf.Clamp(transform.position.x, bottomLeft.x, topRight.x), Mathf.Clamp(transform.position.y, bottomLeft.y, topRight.y), transform.position.z);
+
+    }
+
+    public void SetBounds(Vector3 bottomL, Vector3 topR)
+    {
+        bottomLeft = bottomL + new Vector3(0.5f, 1f, 0f);
+        topRight = topR + new Vector3(-0.5f, -1f, 0f);
     }
 }
