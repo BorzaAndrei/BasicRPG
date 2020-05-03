@@ -18,8 +18,6 @@ public class DialogManager : MonoBehaviour
 
     private bool justStarted;
 
-    public bool isPerson = true;
-
     // Start is called before the first frame update
     void Start()
     {
