@@ -232,6 +232,17 @@ MonoBehaviour:
   gameMenuOpen: 0
   dialogActive: 0
   fadingBetweenAreas: 0
+  shopOpen: 0
+  itemsHeld: []
+  noOfItems: 
+  referenceItems:
+  - {fileID: 2538623512212475938, guid: e09bd249a8dd32d448c8def8d00a368c, type: 3}
+  - {fileID: 2933842393900744393, guid: c3c9ef0f6d7bbe04cba57e703149d58b, type: 3}
+  - {fileID: 4572119840211288274, guid: e146c8a171834504b8ded63c58b790c2, type: 3}
+  - {fileID: 7370152933327729833, guid: 248ba36a2ad1fb148a1bf45d21e21f31, type: 3}
+  - {fileID: 493706946227606346, guid: d64290f6b4399f143b68b0cca4794333, type: 3}
+  - {fileID: 1371954564341316638, guid: 9401b5d2c5b08f345ae99ef2c86d65be, type: 3}
+  currentGold: 0
   playerStats:
   - {fileID: 4542522823925339587}
   - {fileID: 4542522823550082753}

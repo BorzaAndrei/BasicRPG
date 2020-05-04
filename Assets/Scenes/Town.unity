@@ -1283,7 +1283,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &71711595
 MonoBehaviour:
@@ -1381,7 +1381,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &173122055
 BoxCollider2D:
@@ -16628,6 +16628,100 @@ PrefabInstance:
       objectReference: {fileID: 909593983}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b927c651e6433c45aa4447735fca4f1, type: 3}
+--- !u!1001 &1901804113
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2225832604853373143, guid: 4812b566151444e4d85aa9000d44823d,
+        type: 3}
+      propertyPath: m_Name
+      value: Area Exit (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6107750181598032746, guid: 4812b566151444e4d85aa9000d44823d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 14.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6107750181598032746, guid: 4812b566151444e4d85aa9000d44823d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 6107750181598032746, guid: 4812b566151444e4d85aa9000d44823d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.083397
+      objectReference: {fileID: 0}
+    - target: {fileID: 6107750181598032746, guid: 4812b566151444e4d85aa9000d44823d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6107750181598032746, guid: 4812b566151444e4d85aa9000d44823d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6107750181598032746, guid: 4812b566151444e4d85aa9000d44823d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6107750181598032746, guid: 4812b566151444e4d85aa9000d44823d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6107750181598032746, guid: 4812b566151444e4d85aa9000d44823d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6107750181598032746, guid: 4812b566151444e4d85aa9000d44823d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6107750181598032746, guid: 4812b566151444e4d85aa9000d44823d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6107750181598032746, guid: 4812b566151444e4d85aa9000d44823d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8690923838725677275, guid: 4812b566151444e4d85aa9000d44823d,
+        type: 3}
+      propertyPath: areaToLoad
+      value: Shop
+      objectReference: {fileID: 0}
+    - target: {fileID: 8690923838725677275, guid: 4812b566151444e4d85aa9000d44823d,
+        type: 3}
+      propertyPath: areaTransitionName
+      value: Shop-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6107750182124252258, guid: 4812b566151444e4d85aa9000d44823d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 6107750182124252258, guid: 4812b566151444e4d85aa9000d44823d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6107750182124252257, guid: 4812b566151444e4d85aa9000d44823d,
+        type: 3}
+      propertyPath: transitionName
+      value: Shop-1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4812b566151444e4d85aa9000d44823d, type: 3}
 --- !u!1 &1960348572
 GameObject:
   m_ObjectHideFlags: 0
