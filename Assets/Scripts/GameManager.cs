@@ -234,4 +234,18 @@ public class GameManager : MonoBehaviour
             noOfItems[i] = PlayerPrefs.GetInt("ItemAmount_" + i);
         }
     }
+
+    public void DamagePlayer(int damageAmount)
+    {
+        playerStats[0].currentHp -= damageAmount;
+
+        if (playerStats[0].currentHp <= 0)
+        {
+            AudioManager.instance.PlaySFX(0);
+        }
+        else
+        {
+            AudioManager.instance.PlaySFX(1);
+        }
+    }
 }
