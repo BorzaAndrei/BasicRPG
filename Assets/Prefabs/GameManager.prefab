@@ -193,6 +193,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4542522824045207018}
   - component: {fileID: 4542522824045207021}
+  - component: {fileID: 1437592818}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -233,17 +234,76 @@ MonoBehaviour:
   dialogActive: 0
   fadingBetweenAreas: 0
   shopOpen: 0
-  itemsHeld: []
-  noOfItems: 
+  itemsHeld:
+  - Health Potion
+  - Iron Sword
+  - 
+  - 
+  - Health Potion
+  - 
+  - 
+  - Iron Sword
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Leather Armour
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Mana Potion
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  noOfItems: 05000000020000000000000000000000050000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000090000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   referenceItems:
   - {fileID: 2538623512212475938, guid: e09bd249a8dd32d448c8def8d00a368c, type: 3}
-  - {fileID: 2933842393900744393, guid: c3c9ef0f6d7bbe04cba57e703149d58b, type: 3}
-  - {fileID: 4572119840211288274, guid: e146c8a171834504b8ded63c58b790c2, type: 3}
-  - {fileID: 7370152933327729833, guid: 248ba36a2ad1fb148a1bf45d21e21f31, type: 3}
   - {fileID: 493706946227606346, guid: d64290f6b4399f143b68b0cca4794333, type: 3}
+  - {fileID: 2933842393900744393, guid: c3c9ef0f6d7bbe04cba57e703149d58b, type: 3}
+  - {fileID: 7370152933327729833, guid: 248ba36a2ad1fb148a1bf45d21e21f31, type: 3}
+  - {fileID: 4572119840211288274, guid: e146c8a171834504b8ded63c58b790c2, type: 3}
   - {fileID: 1371954564341316638, guid: 9401b5d2c5b08f345ae99ef2c86d65be, type: 3}
-  currentGold: 0
+  currentGold: 50
   playerStats:
   - {fileID: 4542522823925339587}
   - {fileID: 4542522823550082753}
   - {fileID: 4542522823091630815}
+--- !u!114 &1437592818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4542522824045207020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fff1c84580098f45b361cbac870fb9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questMarkerNames:
+  - 
+  - Fight the demon
+  - Enter the cave
+  - Test
+  - Save the world
+  questMarkersComplete: 0000000000

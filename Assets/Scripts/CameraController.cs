@@ -14,6 +14,9 @@ public class CameraController : MonoBehaviour
     private float halfHeight;
     private float halfWidth;
 
+    public int musicToPlay;
+    private bool musicStarted;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,6 +30,12 @@ public class CameraController : MonoBehaviour
         topRight = map.localBounds.max - new Vector3(halfWidth, halfHeight, 0);
 
         PlayerController.instance.SetBounds(map.localBounds.min, map.localBounds.max);
+
+        if (!musicStarted)
+        {
+            musicStarted = true;
+            AudioManager.instance.PlayBGM(musicToPlay);
+        }
     }
 
     // Update is called once per frame
