@@ -13,8 +13,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Walls
+  - Enemies
   - 
   - 
   - 
@@ -49,4 +49,10 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 1980873613
+    locked: 0
+  - name: Battle Bg
+    uniqueID: 2132069667
+    locked: 0
+  - name: Battle Chars
+    uniqueID: 676857211
     locked: 0
