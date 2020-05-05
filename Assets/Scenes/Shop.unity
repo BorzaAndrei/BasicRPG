@@ -844,7 +844,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -891124555
   m_SortingLayer: 1
-  m_SortingOrder: 3
+  m_SortingOrder: 4
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -6418,18 +6418,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &1105004851 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1105004851, guid: 678a5b6a64df1e7498d022fc783a002b,
-    type: 3}
-  m_PrefabInstance: {fileID: 1685744436}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1313218779
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6502,6 +6490,11 @@ PrefabInstance:
       propertyPath: map
       value: 
       objectReference: {fileID: 672312042}
+    - target: {fileID: 8511048132491115563, guid: 7b927c651e6433c45aa4447735fca4f1,
+        type: 3}
+      propertyPath: musicToPlay
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b927c651e6433c45aa4447735fca4f1, type: 3}
 --- !u!1001 &1685744436
@@ -6519,7 +6512,7 @@ PrefabInstance:
     - target: {fileID: 5201184140933153624, guid: 678a5b6a64df1e7498d022fc783a002b,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5201184140933153628, guid: 678a5b6a64df1e7498d022fc783a002b,
         type: 3}
@@ -6625,30 +6618,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1685744441, guid: 678a5b6a64df1e7498d022fc783a002b, type: 3}
-      propertyPath: goldText
-      value: 
-      objectReference: {fileID: 1105004851}
-    - target: {fileID: 1021576119, guid: 678a5b6a64df1e7498d022fc783a002b, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -2.3498535
-      objectReference: {fileID: 0}
-    - target: {fileID: 1267768302, guid: 678a5b6a64df1e7498d022fc783a002b, type: 3}
-      propertyPath: m_FontData.m_HorizontalOverflow
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1369505849, guid: 678a5b6a64df1e7498d022fc783a002b, type: 3}
-      propertyPath: m_FontData.m_HorizontalOverflow
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 415720134, guid: 678a5b6a64df1e7498d022fc783a002b, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SellItem
-      objectReference: {fileID: 0}
-    - target: {fileID: 1243918121, guid: 678a5b6a64df1e7498d022fc783a002b, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -2.3498535
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 678a5b6a64df1e7498d022fc783a002b, type: 3}
@@ -6825,6 +6794,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameManager
       objectReference: {fileID: 0}
+    - target: {fileID: 4542522824045207020, guid: a0215736c5573b14ca4abec89f45cb8b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4542522824045207018, guid: a0215736c5573b14ca4abec89f45cb8b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6879,41 +6853,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4542522824045207021, guid: a0215736c5573b14ca4abec89f45cb8b,
-        type: 3}
-      propertyPath: itemsHeld.Array.size
-      value: 40
-      objectReference: {fileID: 0}
-    - target: {fileID: 4542522824045207021, guid: a0215736c5573b14ca4abec89f45cb8b,
-        type: 3}
-      propertyPath: noOfItems.Array.size
-      value: 40
-      objectReference: {fileID: 0}
-    - target: {fileID: 4542522824045207021, guid: a0215736c5573b14ca4abec89f45cb8b,
-        type: 3}
-      propertyPath: itemsHeld.Array.data[0]
-      value: Health Potion
-      objectReference: {fileID: 0}
-    - target: {fileID: 4542522824045207021, guid: a0215736c5573b14ca4abec89f45cb8b,
-        type: 3}
-      propertyPath: itemsHeld.Array.data[1]
-      value: Iron Sword
-      objectReference: {fileID: 0}
-    - target: {fileID: 4542522824045207021, guid: a0215736c5573b14ca4abec89f45cb8b,
-        type: 3}
-      propertyPath: noOfItems.Array.data[0]
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4542522824045207021, guid: a0215736c5573b14ca4abec89f45cb8b,
-        type: 3}
-      propertyPath: noOfItems.Array.data[1]
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4542522824045207021, guid: a0215736c5573b14ca4abec89f45cb8b,
-        type: 3}
-      propertyPath: currentGold
-      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a0215736c5573b14ca4abec89f45cb8b, type: 3}
